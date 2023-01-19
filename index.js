@@ -22,7 +22,7 @@ const app = express();
 const server = http.createServer(app);
 
 var corsOptions = {
-	origin: [process.env.FRONT_URI, process.env.REXP],
+	origin: [process.env.FRONT_URI],
 	credentials: true,
 };
 

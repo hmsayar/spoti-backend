@@ -10,11 +10,13 @@ A simple Express.js backend to handle authentication and API requests for the Sp
 
 3. Create a `.env` file in the root directory with the following variables:
 
-CLIENT_ID=<spotify_client_id>
-CLIENT_SECRET=<spotify_client_secret>
-FRONT_URI=http://localhost:5173
-RE_URI=http://localhost:4000/callback
-REXP=/.localhost:5173/
+   ```plaintext
+   CLIENT_ID=<spotify_client_id>
+   CLIENT_SECRET=<spotify_client_secret>
+   FRONT_URI=http://localhost:5173
+   RE_URI=http://localhost:4000/callback
+   REXP=/.localhost:5173/
+
 
 4. Install dependencies: npm install
 

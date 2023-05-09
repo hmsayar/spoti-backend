@@ -1,4 +1,4 @@
-# Spotify Backend
+# spotify-backend
 
 A simple Express.js backend to handle authentication and API requests for the Spotify Frontend Clone project.
 
